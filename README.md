@@ -1,16 +1,10 @@
-# EchoMind Frontend
+# SafetyMind Frontend
 
-独立 Vue 前端项目，可同时连接 EchoMind Python 版本和 EchoMind Java 版本。
-
-项目目录：
-
-```text
-/Users/xiao_xiong/Desktop/code/EchoMindFrontend
-```
+SafetyMind 安全生产智能协同平台的前端，基于 Vue 3 + Vite。可连接 SafetyMind Python 后端（默认）或 Java 后端。
 
 ## 功能
 
-- 在页面中切换 Java / Python 后端。
+- 在页面中切换 Python / Java 后端。
 - 统一适配 `/chat` 响应字段：
   - Python：`conv_id`、`agent_type`、`latency_ms`
   - Java：`conversation_id`、`agent_type`、`latency_ms`
